@@ -1,0 +1,200 @@
+body {
+  font-family: "Open Sans";
+  background-color: #f8f6f6;
+  color: #242220;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure figcaption {
+  display: flex;
+  justify-content: center;
+}
+
+#whole-content {
+  text-align: center;
+  justify-content: center;
+  /* border: 3px solid; */
+}
+
+#table-container {
+  /* border: 1px solid #cccccc; */
+  border-radius: 20px;
+  justify-content: center;
+  min-height: 160px;
+}
+
+#content {
+  justify-content: center;
+}
+
+#navbar {
+  top: 0;
+  padding: 15px 10px;
+  background-color: #24252a;
+  color: #f7ebdd;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 36px;
+  padding: 45px 10px;
+  background-color: #24252a;
+  color: #f7ebdd88;
+}
+
+#photos-container {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#cards {
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+
+.arrows{
+
+  display: flex;
+   justify-content: center;
+
+
+}
+
+.arrows .card-left-arrow {
+  margin-right: 40px;
+}
+.arrows .card-right-arrow {
+  margin-left: 40px;
+}
+
+
+
+
+.table-card {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 1.1rem;
+  border: 0;
+  border-radius: 50px;
+  width: 100px;
+  padding: 12px 12px;
+  color: #f7ebdd;
+  background-color: #1294bb;
+  margin: 10px 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #32a6c9;
+}
+
+.button:active {
+  background-color: #0b7392;
+}
+
+.card h3 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  text-decoration: underline;
+}
+
+.card span {
+  display: block;
+  margin: 5px;
+}
+
+.card {
+  color: #f7ebdd;
+  background-color: #24252a;
+  padding: 20px 8px;
+  text-align: left;
+  display: inline-block;
+  border-radius: 10px;
+  min-width: 200px;
+}
+
+.card-left-arrow,
+.card-right-arrow {
+  color: #f7ebdd;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: flex;
+  align-self: center;
+}
+
+.card-left-arrow:hover,
+.card-right-arrow:hover {
+  color: #ecc69b;
+}
+
+.content-table {
+  text-align: left;
+  /* margin: 25px 0; */
+  border-collapse: collapse;
+  width: 60%;
+  margin: 15px auto;
+}
+
+.content-table th {
+  background-color: #1294bb;
+  color: #f7ebdd;
+  font-weight: 800;
+}
+
+.content-table th,
+.content-table td {
+  padding: 8px 25px;
+}
+
+.content-table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.hobbies-list {
+  padding: 0 30px;
+}
+
+.logo {
+  font-weight: 800;
+  color: #585551;
+  padding: 10px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.logo:hover {
+  background-color: #3c3d44;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 20px 20px 5px;
+  box-shadow: 0px 0px 5px;
+  cursor: pointer;
+  /* margin-bottom: 80px; */
+}
+
+.profile-picture:hover {
+  opacity: 80%;
+}
