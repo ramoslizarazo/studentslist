@@ -1,4 +1,4 @@
-# studentlist
+# studentslist
 
 Generates a table with all the students' data and includes pagination. The implementation uses pure HTML, CSS, and JavaScript.
 
